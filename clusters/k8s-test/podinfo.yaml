@@ -8,7 +8,7 @@ spec:
   sourceRef:
     kind: GitRepository
     name: flux-system
-  path: ./podinfo.yaml
+  path: ./podinfo/
   prune: true
   wait: true
   timeout: 5m0s
